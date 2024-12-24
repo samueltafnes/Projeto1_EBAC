@@ -1,0 +1,58 @@
+/* Cabeçalho */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ECF0F1;
+}
+header nav li {
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+header nav li a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sobre */
+.brand-list img {
+    height: 24px;
+}
+.brand-list li {
+    display: inline;
+    margin: 8px;
+}
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+section {
+    color: #182C61;
+}
+section p {
+    margin-bottom: 8px;
+}
+.store-front {
+    margin-right: 32px;
+    min-width: 70%;
+}
